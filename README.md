@@ -49,7 +49,7 @@ docker network create fc-docker-c2
 **Up app**
 
 ```sh
-docker-compose up
+docker-compose up -d
 ```
 
 > docker-compose down to remove containers
