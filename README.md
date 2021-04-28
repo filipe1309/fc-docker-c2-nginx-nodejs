@@ -6,9 +6,9 @@
 
 ## 💬 About
 
-This project was developed following [FullCycle's Docker Module - Challenge 1](https://portal.code.education/lms/#/180/163/110/conteudos?projeto=51&fase=248).
+This project was developed following [FullCycle's Docker Module - Challenge 2](https://portal.code.education/lms/#/180/163/110/conteudos?projeto=51&fase=249).
 
-### Challenge 1
+### Challenge 2
 
 -   [x] Create a nginx image to use as a reverse-proxy to node.js app
 -   [x] Create a nodejs image to register a person name into a mysql db person table
