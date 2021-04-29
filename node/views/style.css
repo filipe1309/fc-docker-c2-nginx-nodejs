@@ -1,0 +1,66 @@
+html {
+    background: rgb(168, 173, 29);
+    background: linear-gradient(90deg, rgba(168, 173, 29, 1) 0%, rgba(13, 192, 111, 1) 23%, rgba(0, 216, 255, 1) 72%);
+    color: #fff;
+    text-align: center;
+}
+
+h1 {
+    font: 600 46px/2 "Source Code Pro", Courier, monospace;
+    background: #08c;
+    margin: 50px;
+    border-radius: 15px;
+    text-transform: uppercase;
+}
+
+#name-generated {
+    text-align: center;
+}
+
+#name-generated p {
+    color: #eee;
+}
+
+#name-generated h2 {
+    font: 600 30px/1.5 "Source Code Pro", Courier, monospace;
+    background: salmon;
+    border-radius: 20px;
+}
+
+h2 {
+    font: 400 40px/1.5 "Source Code Pro", Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    font: 200 20px/1.5 "Source Code Pro", Courier, monospace;
+    ;
+    border-bottom: 1px solid #ccc;
+}
+
+li:last-child {
+    border: none;
+}
+
+li a {
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+    color: #fff;
+    -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+    transition: font-size 0.3s ease, background-color 0.3s ease;
+}
+
+li a:hover {
+    font-size: 30px;
+}
