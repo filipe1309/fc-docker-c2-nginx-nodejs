@@ -16,10 +16,20 @@ This project was developed following [FullCycle's Docker Module - Challenge 2](h
 -   [x] Create a docker-compose that will run the services with `docker-compose up -d` on port `8080`
 -   [x] Create a Gihub repo with the program & docker files
 
+### Result
+
+<div align="center">
+
+![App](app.png)
+
+</div>
+
 ## :computer: Technologies
 
 -   [Docker](https://www.docker.com/)
 -   [Node.js](https://nodejs.org/en/)
+-   [EJS](https://ejs.co/)
+-   [Faker.js](https://www.npmjs.com/package/faker)
 -   [Nginx](https://www.nginx.com/)
 -   [MySQL](https://www.mysql.com/)
 -   [Node MySQL2](https://www.npmjs.com/package/mysql2)
@@ -27,21 +37,22 @@ This project was developed following [FullCycle's Docker Module - Challenge 2](h
 ## :scroll: Requirements
 
 -   [Docker](https://www.docker.com/)
+-   [Docker Compose](https://docs.docker.com/compose/install/)
 
 ## :cd: Installation
 
 ```sh
-git clone git@github.com:filipe1309/fc-fc-docker-c2.git
+git clone git@github.com:filipe1309/fc-docker-c2-nginx-nodejs.git
 ```
 
 ```sh
-cd fc-fc-docker-c2
+cd fc-docker-c2-nginx-nodejs
 ```
 
-### Create docker network
+### Docker Build
 
 ```sh
-docker network create fc-docker-c2
+docker-compose build
 ```
 
 ## :runner: Running
