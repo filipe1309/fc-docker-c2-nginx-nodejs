@@ -20,8 +20,6 @@ This project was developed following [FullCycle's Docker Module - Challenge 2](h
 
 <div align="center">
 
-![App](app.png)
-
 </div>
 
 ## :computer: Technologies
