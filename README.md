@@ -12,7 +12,7 @@ This project was developed following [FullCycle's Docker Module - Challenge 2](h
 
 -   [x] Create a nginx image to use as a reverse-proxy to node.js app
 -   [x] Create a nodejs image to register a person name into a mysql db person table
--   [x] Nodejs aapp should return `<h1>Full Cycle Rocks!</h1>` to Nginx + List of names previously registered
+-   [x] Nodejs app should return `<h1>Full Cycle Rocks!</h1>` to Nginx + List of names previously registered
 -   [x] Create a docker-compose that will run the services with `docker-compose up -d` on port `8080`
 -   [x] Create a Gihub repo with the program & docker files
 
