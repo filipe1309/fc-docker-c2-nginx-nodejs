@@ -31,4 +31,13 @@ show variables like 'character%';
 $ docker run --rm --init -it --network fc-docker-c2 --name fc-docker-c2-node -v $(pwd):/usr/src/app devontherun/fc-docker-c2-node
 
 docker-compose up
+docker-compose up -d
+docker-compose up pfa-mysql
+docker-compose ps
+docker-compose logs
+docker-compose logs pfa-node
+docker-compose stop
 docker-compose down
+
+docker scan IMAGE_NAME
+docker scan nginx
